@@ -8,5 +8,7 @@
             if [ $battery_percent -g 95 ]; then
                 notify-send -i $PWD/batteryfull.png "Battery full." "Level: ${battery_percent}% "
              fi
+        fi
+
         sleep 300 #(5 minutes)
     done
