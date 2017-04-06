@@ -3,7 +3,7 @@ A simple script to display a notification when your battery is full in Ubuntu/Li
 
 ![preview](http://i.imgur.com/rVGMBK8.png)
 
-##Installation :
+## Installation :
 
 1. Install `acpi` package :
 
