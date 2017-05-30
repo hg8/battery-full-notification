@@ -6,6 +6,7 @@ do
     if on_ac_power; then
         if [ "$battery_percent" -gt 95 ]; then
             notify-send -i "$PWD/batteryfull.png" "Battery full." "Level: ${battery_percent}% "
+            paplay /usr/share/sounds/ubuntu/ringtones/Alarm\ clock.ogg
         fi
     fi
     sleep 300 # (5 minutes)
