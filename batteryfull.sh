@@ -10,12 +10,10 @@ do
             paplay /usr/share/sounds/linuxmint-gdm.wav
         fi
     else
-        if [ "$battery_percent" -lt 15 ]; then
+        if [ "$battery_percent" -lt 30 ]; then
                 notify-send -i "$PWD/batteryfull.png" "Battery low." "Level: ${battery_percent}% "
                 paplay ./low_battery.wav
         fi
     fi
-   
-
-    sleep 5s
+    sleep .5m
 done
