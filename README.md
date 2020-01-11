@@ -5,19 +5,12 @@ A simple script to display a notification when your battery is full / low  in Ub
 
 ## Installation :
 
-1. Install `acpi` package :
-
-        sudo apt-get install acpi
-
-2. Clone this repo :
-        
-        git clone git@github.com:MoatazAbdAlmageed/battery-full-notification.git
-        
-3. Add the `batteryfull.sh` script as a startup application (Open Dash and search for `Startup Applications`) :
-
+* Install `acpi` package :  sudo apt-get install acpi
+* install `sudo apt install libnotify-bin`
+* Clone this repo : `git clone git@github.com:MoatazAbdAlmageed/battery-full-notification.git`
+* Add the `batteryfull.sh` script as a startup application (Open Dash and search for `Startup Applications`) :
     ![startup application](http://i.imgur.com/pWcq9TW.png)
-
-4. Done!
+* Done!
 
 
 ----
